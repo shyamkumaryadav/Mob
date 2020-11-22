@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".MainActivity">
 
     <TextView
@@ -33,15 +34,15 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="184dp"
-        android:layout_height="206dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:layout_marginBottom="12dp"
         android:contentDescription="@string/img_desc"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:srcCompat="@drawable/start_img"
-        tools:ignore="MissingConstraints,VectorDrawableCompat"  />
+        tools:ignore="MissingConstraints,VectorDrawableCompat"
+        tools:srcCompat="@drawable/start_img" />
 
     <Button
         android:id="@+id/button"

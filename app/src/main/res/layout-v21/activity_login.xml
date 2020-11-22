@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
     tools:context=".loginActivity">
 
     <LinearLayout
@@ -31,8 +30,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Display2"
             android:textColor="@color/primary_dark"
             android:textStyle="bold"
-            android:typeface="sans"
-            tools:targetApi="lollipop" />
+            android:typeface="sans" />
 
         <TextView
             android:id="@+id/viewSignup"
@@ -97,8 +95,7 @@
             android:letterSpacing="0.1"
             android:paddingVertical="15dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:text="Login"
-            tools:targetApi="lollipop" />
+            android:text="Login" />
 
 
     </LinearLayout>
