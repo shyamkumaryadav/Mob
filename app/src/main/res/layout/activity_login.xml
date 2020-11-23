@@ -95,6 +95,7 @@
             android:layout_marginTop="10dp"
             android:textAllCaps="true"
             android:letterSpacing="0.1"
+            android:onClick="loginClick"
             android:paddingVertical="15dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:text="Login"
