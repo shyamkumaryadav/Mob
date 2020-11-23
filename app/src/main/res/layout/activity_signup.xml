@@ -99,6 +99,7 @@
                 android:layout_marginHorizontal="25dp"
                 android:layout_marginTop="10dp"
                 android:textAllCaps="true"
+                android:onClick="signupClick"
                 android:letterSpacing="0.1"
                 android:paddingVertical="15dp"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
