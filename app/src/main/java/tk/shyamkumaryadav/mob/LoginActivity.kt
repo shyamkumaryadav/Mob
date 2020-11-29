@@ -2,6 +2,7 @@ package tk.shyamkumaryadav.mob
 
 import android.content.DialogInterface
 import android.content.Intent
+import android.graphics.drawable.Drawable
 import android.os.Bundle
 import android.util.Patterns
 import android.view.View
@@ -52,21 +53,25 @@ class LoginActivity : AppCompatActivity() {
     }
 
     fun tvForgetPassword(view: View) {
-        val emailLayout = TextInputLayout(this)
-        emailLayout.hint = "Email"
-        val emailInput = TextInputEditText(this)
-        emailLayout.addView(emailInput)
+        /*val emailLayout = TextInputLayout(this)
+        val emailInput = TextInputEditText(emailLayout.context)
+        emailInput.hint = "Email"
+        emailLayout.setStartIconDrawable(R.drawable.ic_baseline_email_24)
+        emailLayout.addView(emailInput)*/
+
+
 
         MaterialAlertDialogBuilder(this)
             .setTitle("Forget Password")
             .setMessage("New To Android ?")
-            .setView(emailLayout)
-            .setNeutralButton("Cancel"){ dialogInterface: DialogInterface, i: Int ->
-                Toast.makeText(this, "Set Neutral Button", Toast.LENGTH_LONG).show()
+            .setView(textFieldEmail)
+            .setNeutralButton("Cancel"){ _: DialogInterface, _: Int ->
+                // Some thing Negatv
             }
-            .setPositiveButton("Send Email"){ dialogInterface: DialogInterface, i: Int ->
+            .setPositiveButton("Send Email"){ _: DialogInterface, _: Int ->
                 Toast.makeText(this, "Email send to This Acccount", Toast.LENGTH_LONG).show()
             }
+            .setCancelable(false)
             .show()
     }
 }
