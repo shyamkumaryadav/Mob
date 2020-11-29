@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Mob</string>
+    <string name="app_name">Mobile Obesity</string>
+    <string name="follow_me">Follow me on <a href='https://github.com/shyamkumaryadav'>GitHub@shyamkumaryadav</a></string>
 </resources>

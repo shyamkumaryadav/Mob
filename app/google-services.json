@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "446879286455",
+    "firebase_url": "https://mob-mobile.firebaseio.com",
+    "project_id": "mob-mobile",
+    "storage_bucket": "mob-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446879286455:android:eee66dd136dc40f6eb7932",
+        "android_client_info": {
+          "package_name": "tk.shyamkumaryadav.mob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "446879286455-72k1t9b5n6cehkjq817hju5sg95j6o3v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCk8rdwdx_DM0mDyeUy42PfQ9JIhqmx3f4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "446879286455-72k1t9b5n6cehkjq817hju5sg95j6o3v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
