@@ -1,9 +1,3 @@
 <resources>
-    <string name="app_name">Backroid</string>
-
-    <string name="welcome_msg">Welcome To Backroid</string>
-    <string name="img_desc">Welcome Image</string>
-    <string name="get_started">Get started</string>
-    <string name="msg">follow unique india on instagram.</string>
-
+    <string name="app_name">Mob</string>
 </resources>
