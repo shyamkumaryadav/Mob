@@ -31,6 +31,7 @@
             app:startIconDrawable="@drawable/ic_baseline_email_24"
             android:layout_marginTop="40dp"
             app:errorEnabled="true"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_marginHorizontal="20dp"
             android:hint="Email">
 
@@ -51,6 +52,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginHorizontal="20dp"
             app:endIconMode="password_toggle"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:hint="Password">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -69,6 +71,7 @@
             android:layout_marginRight="20dp"
             android:layout_marginTop="10dp"
             android:textSize="18sp"
+            android:onClick="tvForgetPassword"
             android:textColor="@color/disable"
             android:text="Forget Password?"/>
 
@@ -76,6 +79,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Login"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:onClick="btnLogin"
             android:paddingHorizontal="100dp"
             android:paddingVertical="15dp"

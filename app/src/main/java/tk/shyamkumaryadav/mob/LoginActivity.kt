@@ -1,15 +1,18 @@
 package tk.shyamkumaryadav.mob
 
+import android.content.DialogInterface
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.util.Patterns
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.dialog.MaterialAlertDialogBuilder
+import com.google.android.material.textfield.TextInputEditText
+import com.google.android.material.textfield.TextInputLayout
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_login.*
-import kotlin.math.log
+
 
 
 class LoginActivity : AppCompatActivity() {
@@ -48,9 +51,22 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 
-    override fun onStart() {
-        super.onStart()
-        var currentUser = fireAuth.currentUser
+    fun tvForgetPassword(view: View) {
+        val emailLayout = TextInputLayout(this)
+        emailLayout.hint = "Email"
+        val emailInput = TextInputEditText(this)
+        emailLayout.addView(emailInput)
 
+        MaterialAlertDialogBuilder(this)
+            .setTitle("Forget Password")
+            .setMessage("New To Android ?")
+            .setView(emailLayout)
+            .setNeutralButton("Cancel"){ dialogInterface: DialogInterface, i: Int ->
+                Toast.makeText(this, "Set Neutral Button", Toast.LENGTH_LONG).show()
+            }
+            .setPositiveButton("Send Email"){ dialogInterface: DialogInterface, i: Int ->
+                Toast.makeText(this, "Email send to This Acccount", Toast.LENGTH_LONG).show()
+            }
+            .show()
     }
 }
