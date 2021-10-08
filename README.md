@@ -14,8 +14,8 @@ Password: Root123
 ## Screenshots	
 
 [<img src="Screenshots/Main.jpg" width=160>](Default)	
-[<img src="Screenshots/Login.jpg" width=160>](Login)	
-[<img src="Screenshots/Sign_Up.jpg" width=160>](Sign up)
+[<img src="Screenshots/Login.jpg" width=160>](Login)    
+[<img src="Screenshots/Sign_Up.jpg" width=160>](Sign_up)
 [<img src="Screenshots/Mob.jpg" width=160>](Main)
 
 ---  
