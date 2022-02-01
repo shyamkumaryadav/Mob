@@ -1,4 +1,4 @@
-## Mob (Mobile Obesity) ![Download](https://img.shields.io/github/downloads/shyamkumaryadav/mob/total?label=Total%20Apps%20Downlod%20By%20Humans) 
+## Mob (Mobile Obesity) [![Download](https://img.shields.io/github/downloads/shyamkumaryadav/mob/total?label=Total%20Apps%20Downlod%20By%20Humans)](https://github.com/shyamkumaryadav/Mob/releases/download/v1.0.0/app-debug.apk 'click to download') 
 
 
   
